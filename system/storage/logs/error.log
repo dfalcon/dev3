@@ -1,0 +1,240 @@
+2017-02-24 15:04:15 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-24 15:07:00 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-24 15:07:05 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-24 16:34:56 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-24 16:36:56 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-24 16:39:34 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 15:52:48 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 16:00:14 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 16:00:32 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-28 16:08:14 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-28 16:08:29 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-28 16:12:09 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 16:12:19 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-28 16:26:19 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-28 16:26:32 - PHP Notice:  Error: Could not load model /home/dev3/public_html/admin/model/sale/customer_group.php! in /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_loader.php on line 63
+2017-02-28 16:35:52 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 16:59:56 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 17:02:17 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 18:35:32 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 19:06:48 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 19:21:35 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#8 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-02-28 19:21:37 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#8 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-02-28 19:21:53 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 19:22:17 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#8 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-02-28 19:29:10 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#8 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-02-28 19:29:19 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 19:29:39 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#8 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-02-28 19:33:37 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 19:38:30 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Facebook', NULL)
+#4 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Facebook')
+#5 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#6 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#7 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#8 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#9 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#10 {main}
+2017-02-28 19:38:31 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Facebook', NULL)
+#4 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Facebook')
+#5 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#6 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#7 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#8 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#9 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#10 {main}
+2017-02-28 19:38:32 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Providers/Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 /home/dev3/public_html/system/library/Hybrid/Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 /home/dev3/public_html/system/library/Hybrid/Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 /home/dev3/public_html/system/library/Hybrid/Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 /home/dev3/public_html/system/library/Hybrid/Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 /home/dev3/public_html/catalog/controller/module/d_social_login.php(103): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#8 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#9 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#10 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2017-02-28 19:44:21 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 19:46:50 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! The user denied your request.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 /home/dev3/public_html/catalog/controller/module/d_social_login.php(101): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#4 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#6 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2017-02-28 19:55:28 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Twitter returned an error. 401 Unauthorized.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 /home/dev3/public_html/catalog/controller/module/d_social_login.php(101): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#4 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#6 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2017-02-28 19:57:08 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Twitter returned an error. 401 Unauthorized.
+
+Trace:
+ #0 /home/dev3/public_html/system/library/Hybrid/Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 /home/dev3/public_html/catalog/controller/module/d_social_login.php(101): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 /home/dev3/public_html/vqmod/vqcache/vq2-system_engine_action.php(46): call_user_func(Array, Array)
+#4 /home/dev3/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/dev3/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#6 /home/dev3/public_html/index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2017-02-28 20:58:26 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:58:28 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:58:37 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:58:47 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:59:03 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:59:10 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:59:23 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 20:59:56 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:00 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:04 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:15 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:19 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:24 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:27 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:00:31 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:02:10 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:02:10 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:02:15 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:02:22 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:02:30 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:03:57 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:04:20 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:04:25 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:04:28 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:04:37 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:08:34 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:09:59 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:10:21 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:10:32 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:12:01 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:14:39 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:17:19 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 21:23:53 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-02-28 22:05:37 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 5:06:01 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 5:06:38 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 5:06:38 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 5:34:26 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 11:50:52 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 12:34:51 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 13:00:30 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 19:43:14 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5
+2017-03-01 20:19:23 - PHP Notice:  Undefined index: token in /home/dev3/public_html/vqmod/vqcache/vq2-admin_controller_common_header.php on line 5

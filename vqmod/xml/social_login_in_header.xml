@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>social in header</id>
+    <version>2.x</version>
+    <vqmver required="true">2.5.0</vqmver>
+    <author>dfalcon</author>
+
+    <file name="catalog/view/theme/default/template/common/header.tpl">
+        <operation>
+
+            <search position="after"><![CDATA[
+        <?php echo $language; ?>
+      ]]></search>
+
+            <add><![CDATA[
+        <?php echo $db_social_login; ?>
+      ]]></add>
+
+        </operation>
+    </file>
+</modification>
