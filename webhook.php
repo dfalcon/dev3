@@ -13,7 +13,7 @@ if ( $_POST['payload'] ) {
     if( file_exists($LOCAL_REPO) ) {
 
 // If there is already a repo, just run a git pull to grab the latest changes
-        shell_exec("cd {$LOCAL_REPO} && git pull");
+        shell_exec("git fetch --all && git reset --hard origin/master");
 
         die("done " . mktime());
     } else {
