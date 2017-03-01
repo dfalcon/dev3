@@ -2,7 +2,7 @@
 
 // Set Variables
 $LOCAL_ROOT         = "/";
-$LOCAL_REPO_NAME    = ".";
+$LOCAL_REPO_NAME    = "";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "https://github.com/dfalcon/dev3.git .";
 $BRANCH             = "master";
